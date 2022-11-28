@@ -15,7 +15,6 @@ export function Countdown() {
   const totalSeconds = activeCycle ? activeCycle.minutesAmount * 60 : 0
 
   useEffect(() => {
-    console.log('useEffect')
     let interval: number
 
     if (activeCycle) {
@@ -36,7 +35,6 @@ export function Countdown() {
     }
 
     return () => {
-      console.log('clearEffect')
       clearInterval(interval)
     }
   }, [
