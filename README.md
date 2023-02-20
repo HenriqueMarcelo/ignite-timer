@@ -1,98 +1,35 @@
-# ESLint Installation and Configuration Instructions
-
-// https://www.npmjs.com/package/eslint-config-airbnb-typescript
-
-### Instaling ESLint
-
-```
-yarn add eslint --dev
-yarn run eslint --init
-```
-
-Choose the options:
-
-```
-To check syntax, find problems, and enforce code style
-JavaScript modules (import/export)
-React
-TypeScript > No
-Browser
-Use a popular style guide
-Airbnb: https://github.com/airbnb/javascript
-JavaScript
-```
-
-### Instaling Airbnb TypeScript
-
-```
-yarn add eslint-config-airbnb-typescript @typescript-eslint/eslint-plugin@^5.13.0 @typescript-eslint/parser@^5.0.0 --dev
-```
-
-In .eslintrs.cjs 
-
-```
-+ parserOptions: {
-+   project: './tsconfig.json'
-+ },
-  extends: [
-    'airbnb',
-+   'airbnb-typescript'
-  ]
-```
-
-In tsconfig.json
-
-```
-"include": [
-    "src",
-    ".eslintrc.cjs",
-  ],
-```
-
-### Using autofix in VSCode
-
-```
-ctrl + shift + p
-Open Workspace settings
-```
-
-In the settings file
-
-```
-"settings": {
-		"editor.codeActionsOnSave": {
-			"source.fixAll.eslint": true
-		},
-		"eslint.validate": ["javascript", "typescript"]
-	},
-	"extensions": {
-		"recommendations": [
-			"dbaeumer.vscode-eslint"
-		]
-	},
-
-```
+[Português 🇧🇷](README.pt.md)
 
 
-### Usefull rules
+# To Do List
 
-```
-  rules: {
-    'prefer-default-export': 0,
-    'import/prefer-default-export': 0,
-    'react/jsx-props-no-spreading': 0,
-    'react/jsx-no-bind': 0,
-    '@typescript-eslint/no-unused-vars': 1,
-    'react/no-unstable-nested-components': 0,
+The To Do List is a web application that works like a task list. With it you can create tasks, mark them as done, and remove tasks. In addition, the application displays the total number of tasks, as well as the number of completed tasks.
 
-    'react/react-in-jsx-scope': 0,
-    'react/prop-types': 0,
-    'jsx-a11y/alt-text': 0,
-    'no-restricted-globals': 1,
-    'no-unused-vars': 1,
+The project was developed during Rocketseat's "Ignite" course, with the goal of teaching the basics of React, Typescript and form manipulation.
 
-    'react/require-default-props': 0,
-    'import/no-cycle': 0,
-    'no-param-reassign': 0,
-  },
-```
+Access the running application at: https://henriquemarcelo.github.io/to-do-list/
+
+## Technologies Used
+
+- React
+- Typescript
+- CSS Modules
+
+## Functionality
+
+- Add tasks
+- Mark Tasks as Completed
+- Remove Tasks
+- Display total number of tasks
+- Show number of completed tasks
+
+## Running the project
+
+1. Clone the repository:
+```git clone https://github.com/HenriqueMarcelo/to-do-list.git```
+2. Go to the project folder:
+```cd to-do-list```
+3. Install the dependencies:
+```yarn```
+4. Run the project:
+```yarn dev```
