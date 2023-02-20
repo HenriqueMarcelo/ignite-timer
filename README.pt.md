@@ -1,34 +1,31 @@
 [Readme in English 🇬🇧](README.md)
 
-# To Do List
+# Ignite Timer
 
-O To Do List é um aplicativo web que funciona como uma lista de tarefas. Com ele é possível criar tarefas, marcar como concluídas e remover as tarefas. Além disso, o aplicativo exibe o número total de tarefas, bem como o número de tarefas concluídas.
+O Ignite Timer é um aplicativo web que funciona como um timer da técnica Pomodoro, onde podemos definir uma contagem regressiva para realizarmos uma tarefa. O aplicativo também armazena um histórico dos timers realizados.
 
-O projeto foi desenvolvido durante o curso "Ignite" da Rocketseat, com o objetivo de ensinar os conceitos básicos do React, Typescript e manipulação de formulários.
+Ele foi criado dentro do curso "Ignite" da Rocketseat com o propósito de aprendermos sobre conceitos avançados do React, como context, reducer, formulários, Typescript, acesso e escrita a Local Storage e muito mais. Além disso, foram utilizadas bibliotecas como DateFNS, immer, React Hook Form, ZOD, React Router DOM, entre outras.
 
-Acesse o aplicativo em funcionamento em: https://henriquemarcelo.github.io/to-do-list/
-
-## Tecnologias Utilizadas
-
-- React
-- Typescript
-- CSS Modules
+O Ignite Timer está hospedado no GitHub Pages e pode ser acessado em: https://henriquemarcelo.github.io/ignite-timer/
 
 ## Funcionalidades
 
-- Adicionar tarefas
-- Marcar tarefas como concluídas
-- Remover tarefas
-- Exibir número total de tarefas
-- Exibir número de tarefas concluídas
+- Definir um tempo para o timer
+- Iniciar, pausar e cancelar o timer
+- Adicionar uma tarefa a ser realizada
+- Armazenar um histórico das tarefas realizadas
 
 ## Como executar o projeto
 
 1. Faça o clone do repositório:
-```git clone https://github.com/HenriqueMarcelo/to-do-list.git```
+```git clone https://github.com/HenriqueMarcelo/ignite-timer.git```
 2. Acesse a pasta do projeto:
-```cd to-do-list```
+```cd ignite-timer```
 3. Instale as dependências:
 ```yarn```
 4. Execute o projeto:
 ```yarn dev```
+
+## Contribuições
+
+Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir um pull request com suas sugestões e melhorias para o aplicativo.

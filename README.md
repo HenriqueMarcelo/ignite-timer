@@ -1,35 +1,31 @@
 [Português 🇧🇷](README.pt.md)
 
+# Ignite Timer
 
-# To Do List
+Ignite Timer is a web application that works like a Pomodoro timer, where we can set a countdown to accomplish a task. The application also stores a history of the timers performed.
 
-The To Do List is a web application that works like a task list. With it you can create tasks, mark them as done, and remove tasks. In addition, the application displays the total number of tasks, as well as the number of completed tasks.
+It was created within Rocketseat's "Ignite" course with the purpose of learning about advanced React concepts such as context, reducer, forms, Typescript, accessing and writing to Local Storage and much more. In addition, libraries such as DateFNS, immer, React Hook Form, ZOD, React Router DOM, and others were used.
 
-The project was developed during Rocketseat's "Ignite" course, with the goal of teaching the basics of React, Typescript and form manipulation.
+Ignite Timer is hosted on GitHub Pages and can be accessed at: https://henriquemarcelo.github.io/ignite-timer/
 
-Access the running application at: https://henriquemarcelo.github.io/to-do-list/
+## Features
 
-## Technologies Used
+- Set a time for the timer
+- Start, pause, cancel timer
+- Add a task to be performed
+- Store a history of tasks done
 
-- React
-- Typescript
-- CSS Modules
-
-## Functionality
-
-- Add tasks
-- Mark Tasks as Completed
-- Remove Tasks
-- Display total number of tasks
-- Show number of completed tasks
-
-## Running the project
+## How to run the project
 
 1. Clone the repository:
-```git clone https://github.com/HenriqueMarcelo/to-do-list.git```
+```git clone https://github.com/HenriqueMarcelo/ignite-timer.git```
 2. Go to the project folder:
-```cd to-do-list```
+```cd ignite-timer```
 3. Install the dependencies:
 ```yarn```
 4. Run the project:
 ```yarn dev```
+
+## Contributions
+
+Contributions are always welcome! Feel free to open a pull request with your suggestions and improvements to the application.
